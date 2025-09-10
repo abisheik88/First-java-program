@@ -8,8 +8,8 @@ public class Sum {
         System.out.println("Enter the Second number to Add");
         int num2=input.nextInt();
 
-        int sum=num1+num2;
-
+        float sum=num1+num2;
+    input.close();
         System.out.println("Sum of two numbers is "+sum);
     }
 }
