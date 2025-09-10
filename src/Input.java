@@ -20,8 +20,7 @@ public class Input {
         System.out.println(a);
 
         System.out.print("Please Enter your Name:");
-        Scanner stringInput=new Scanner(System.in);
-        String name=stringInput.nextLine();
+        String name=integerInput.nextLine();
 
         System.out.println("My name is "+name);
 
