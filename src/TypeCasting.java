@@ -37,3 +37,9 @@ public class TypeCasting {
 //double	      64 bits	 ~ ±1.7 × 10^308 (15–16 decimal digits precision)
 //char	          16 bits	 0 to 65,535 (Unicode characters)
 //boolean	      JVM dep.	 true / false
+
+
+//Rules For Type Promotion
+
+// 1.All the Byte, Short and Char values are converted into Integer.
+// 2.Then If any one of the Operands which we are doing Arithmetic operations which are Long then Whole of it promoted to Long
